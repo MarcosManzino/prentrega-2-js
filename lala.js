@@ -10,6 +10,8 @@ class cliente {
     
 
 }
+let numJuan = 0
+let numPepe = 0
 const clientesPepe = [];
 const clientesJuan = [];
 
@@ -18,12 +20,14 @@ for (let i= 0; i <= 4; i++) {
     if (numero == 1) {
         alert("usted eligio a Pepe")
         
-        clientesPepe.push(new cliente(i+1, prompt("ingrese su nombre"), "$1000", 30*i+"m","Pepe"));
+        clientesPepe.push(new cliente(1+numPepe, prompt("ingrese su nombre"), "$1000", 30*numPepe+"m","Pepe"));
+        numPepe ++
 
     } else if(numero == 2){
         alert("usted eligio a Juan")
         
-        clientesJuan.push(new cliente(i+1, prompt("ingrese su nombre"), "$1000", 30*i+"m","Juan"));
+        clientesJuan.push(new cliente(1+numJuan, prompt("ingrese su nombre"), "$1000", 30*numJuan+"m","Juan"));
+        numJuan ++
     }
     else{
       alert("usten no eligio a nadie \nintente de nuevo")

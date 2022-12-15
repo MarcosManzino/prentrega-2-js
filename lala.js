@@ -77,7 +77,6 @@ for (const cliente of clientesJuan) {
 console.log("clientes de Pepe \n._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.")
 for (const cliente of clientesPepe) {
     console.log(cliente.nombre + " " + cliente.demora);
-    12
 }
 console.log("._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.")
 console.log("informacion de tosos los clientes segun profesional")
